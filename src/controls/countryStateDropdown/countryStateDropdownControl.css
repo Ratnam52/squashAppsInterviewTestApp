@@ -1,0 +1,42 @@
+label {
+  font-size: 15px;
+
+  font-weight: normal;
+}
+
+.labelClass {
+  text-align: left;
+}
+
+select {
+  padding: 0px 5px;
+  border: 1px solid #cecece;
+  border-radius: 3px;
+  height: 40px;
+  width: 450px;
+  font-size: 15px;
+  word-wrap: normal;
+}
+
+.dropDownClassClass {
+  margin-bottom: 30px;
+}
+
+.dropDownClassClass .imgBlock select {
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 414px;
+}
+
+.dropDownClassClass .imgText {
+  background-color: #ffffff;
+}
+
+.dropDownClassClass .imgText img {
+  margin-right: 0px;
+}
+
+select:focus {
+    outline: none !important;
+}

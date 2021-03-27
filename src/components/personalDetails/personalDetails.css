@@ -1,0 +1,50 @@
+.personalDetailsClass {
+  background-color: #f1f1f1;
+}
+
+.headerContainer {
+  padding: 30px;
+  text-align: center;
+}
+
+.header1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #0a0909;
+}
+
+.header2 {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #0a0909;
+}
+
+.bodyContainer {
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+}
+
+.controlFields {
+  box-shadow: 2px 2px 3px 0 rgb(0 0 0 / 5%);
+  display: inline-block;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.footerContainer {
+  text-align: center;
+  padding: 15px;
+}
+
+.footerText {
+  font-size: 15px;
+}
+
+.footerTextLogin {
+  cursor: pointer;
+  margin-left: 5px;
+  color: #ed5901;
+}

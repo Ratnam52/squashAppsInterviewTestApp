@@ -1,0 +1,38 @@
+.genderButtonClass button {
+  width: unset;
+}
+
+.genderButtonClass .genderSelect {
+  background: #dcd4d4;
+  margin-right: 10px;
+}
+
+.genderButtonClass .genderSelect .btnText {
+  color: #ed5901;
+  padding: 0px 20px;
+}
+
+.genderButtonClass .genderUnSelect {
+  background: #ffffff;
+  border: 1px solid #dcd4d4;
+  margin-right: 10px;
+}
+
+.genderButtonClass .genderUnSelect .btnText {
+  color: #0a0909;
+  padding: 0px 20px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.labelClass {
+  text-align: left;
+}
+
+.genderButtonClass {
+  margin-bottom: 30px;
+  text-align: left;
+}

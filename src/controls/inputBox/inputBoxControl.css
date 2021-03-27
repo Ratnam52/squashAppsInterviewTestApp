@@ -1,0 +1,28 @@
+label {
+    font-size: 15px;
+    
+    font-weight: normal;
+}
+
+.labelClass {
+    text-align: left;
+}
+
+input {
+    padding: 0px 5px;
+    margin-bottom: 30px;
+    border: 1px solid #CECECE;
+    background-color: #ffffff;
+    border-radius: 3px;
+    font-size: 15px;
+    float: left;
+    width: 450px;
+    height: 40px;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid #CECECE;
+    background-color: #ffffff;
+    border-radius: 3px;
+}

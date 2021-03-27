@@ -1,0 +1,32 @@
+.buttonClass,
+.btnText {
+  color: #ffffff;
+}
+
+.buttonClass,
+button {
+  background-color: #ed5901;
+  width: 450px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.buttonClass,
+button:focus {
+  outline: none !important;
+}
+
+.buttonClass {
+  margin-top: 80px;
+}
+
+.companyDetailsClass .buttonClass {
+  margin-top: 30px;
+}
+
+.buttonClass button[disabled] {
+  cursor: default;
+  background-color: #d20d0d;
+}

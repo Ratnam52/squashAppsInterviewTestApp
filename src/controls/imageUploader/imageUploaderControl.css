@@ -1,0 +1,43 @@
+.imageUploader .labelClass {
+  margin-left: 15px;
+  color: #ed5901;
+  font-size: 15px;
+}
+
+.imageUploader label {
+  margin-top: 30px;
+}
+
+.imageUploader .imageBar {
+  /* border: 1px solid; */
+  display: inline-block;
+  background-color: #F8F9FA;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.imageUploader img {
+  cursor: pointer;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.imageUploader input {
+  display: none;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  float: left;
+}
+
+.imageUploader {
+  display: inline-block;
+}
+
+
+.toast {
+  font-size: 15px;
+}

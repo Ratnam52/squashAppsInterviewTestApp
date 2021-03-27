@@ -1,0 +1,40 @@
+label {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.labelClass {
+  text-align: left;
+}
+
+.phoneNumberBox {
+  margin-bottom: 30px;
+}
+
+.imgText {
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+  height: 40px;
+  border: 1px solid #cecece;
+  font-size: 15px;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  float: left;
+}
+
+.imgText img {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.phoneNumberBox input {
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 350px;
+}
+
+.phoneNumberBox .imgText {
+  width: 100px;
+}

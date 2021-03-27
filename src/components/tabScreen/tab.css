@@ -1,0 +1,94 @@
+.myTabClass {
+  background-color: #f1f1f1;
+  height: 100vh;
+}
+
+.myTabClass .nav-tabs {
+  border: none;
+}
+
+.myTabClass .nav {
+  border: none;
+  background-color: #2e4b64;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: none;
+}
+
+.nav-tabs .nav-link {
+  border: unset;
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+  color: #ffffff;
+  background-color: unset;
+  border-color: unset;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+  color: #522b2b;
+  background-color: #2e4b64;
+}
+
+a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c1c1c1;
+  text-decoration: none;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+a:focus,
+a:hover {
+  color: #c1c1c1;
+  text-decoration: none;
+}
+
+.tabCount,
+.tabText,
+.tabDesc {
+  float: left;
+  padding-top: 2px;
+}
+
+.tabText {
+  padding: 15px 80px;
+}
+
+.tabCount {
+  border: 1px solid #28435a;
+  background-color: #28435a;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-tabs .nav-link.active .tabCount,
+.nav-tabs .nav-link:hover .tabCount {
+  border: 1px solid #ed5901;
+  background-color: #ed5901;
+}
+
+.tab-content {
+  background-color: #f1f1f1;
+}
